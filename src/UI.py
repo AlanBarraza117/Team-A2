@@ -2,6 +2,14 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtCore import QCoreApplication
 import sys
+import extract as ex
+import filter as fil
+import fitting as ft
+import IV_data as Id
+import IV_plot as Ip
+import Tm_data as Td
+import Tm_plot as Tp
+import total_plot as Totp
 
 Diodes = ['D07','D08','D23','D24']
 Rows = [-4,-3,-2,-1,0,1,2,3,4]
